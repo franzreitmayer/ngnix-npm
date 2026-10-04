@@ -1,0 +1,32 @@
+# Nginx Proxy Manager runtime data
+data/
+
+# Certificates, ACME data and private keys
+letsencrypt/
+
+# Environment configuration
+.env
+
+# Secrets
+secrets/
+
+# Certificates / keys accidentally created locally
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*~
+
+# Editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
